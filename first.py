@@ -34,7 +34,7 @@ def func(number, t=''):
     elif (number == 9):
       print("\n Девять")
     else:
-      print("Начните сначала")
+      print("Число не входит в указанный интервал")
 
     if t == 'bin':
       print(bin(number))
